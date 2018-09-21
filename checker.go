@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package watchcat
 
 import (
@@ -5,9 +10,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/kudohamu/watchcat/internal/github"
-	"github.com/kudohamu/watchcat/internal/lmdb"
 	version "github.com/mcuadros/go-version"
+
+	"github.com/sniperkit/snk.fork.kudohamu-watchcat/internal/github"
+	"github.com/sniperkit/snk.fork.kudohamu-watchcat/internal/lmdb"
 )
 
 // ReleaseChecker represents checker for latest release.

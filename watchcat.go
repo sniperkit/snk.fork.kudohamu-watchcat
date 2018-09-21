@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Package watchcat is library for watching github activities.
 package watchcat
 
@@ -14,9 +19,10 @@ import (
 
 	"github.com/BurntSushi/toml"
 	"github.com/kudohamu/petelgeuse"
-	"github.com/kudohamu/watchcat/internal/github"
-	"github.com/kudohamu/watchcat/internal/lmdb"
 	homedir "github.com/mitchellh/go-homedir"
+
+	"github.com/sniperkit/snk.fork.kudohamu-watchcat/internal/github"
+	"github.com/sniperkit/snk.fork.kudohamu-watchcat/internal/lmdb"
 )
 
 // watching targets.

@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"fmt"
 	"strings"
 
-	"github.com/kudohamu/watchcat"
 	"github.com/urfave/cli"
+
+	"github.com/sniperkit/snk.fork.kudohamu-watchcat"
 )
 
 // Watch parses flags and starts to watch repositories.
